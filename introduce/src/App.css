@@ -1,0 +1,151 @@
+.App{
+  background: linear-gradient(GhostWhite, FloralWhite);
+}
+
+#poster{
+  width: 100%;
+  height: 500px;
+  border-radius: 5%;
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#edu-image {
+  border-radius: 5%;
+  width: 75%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+#footer{
+  background-color: bisque;
+}
+
+.nav{
+  /* position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: Ivory;
+  border: 5px BurlyWood;
+  color: azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 10rem;
+  padding: 0 3rem;
+  border-radius: 50px;
+  z-index: 1000;  */
+  /* 保证在其他元素之上 */
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto; /* 或自动适应内容 */
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 添加阴影提升层次 */
+  z-index: 1000; /* 确保它在页面最上层，不被其它元素盖住 */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.nav ul{
+  padding: 10px;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+/* .nav a{
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+  padding: .25rem;
+} */
+
+.nav li.active{
+  background-color: #555;
+}
+
+/* .nav li:hover{
+  background-color: wheat;
+} */
+
+.footer-image{
+  padding-top: 15px;
+}
+
+.footer-contain{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+/* .footer-link{
+  position: relative;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+.navFooter{
+  
+  height: auto; /* 或自动适应内容 */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.navFooter ul{
+  padding: 10px;
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  gap: 1rem;
+}
+
+#project{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding: 50px;
+  padding-top: 5%;
+  gap: 50px;
+}
+
+.projectTitle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: DimGrey;
+  font-size: 35px;
+}
+
