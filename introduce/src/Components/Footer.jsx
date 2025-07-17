@@ -3,6 +3,7 @@ import { GiPositionMarker } from "react-icons/gi";
 import { MdEmail } from "react-icons/md";
 import Button from '@mui/material/Button';
 import '../App.css'
+import myself from '../Image/avatar.png';
 
 export default function Footer({onScroll}) {
     return(
@@ -11,7 +12,7 @@ export default function Footer({onScroll}) {
             <div className='footer-contain'>
 
             <div className='footer-image'>
-                <Avatar sx={{width:'100px', height:'100px'}}>WZ</Avatar>
+                <Avatar sx={{width:'100px', height:'100px'}} src={myself} alt='WZ'></Avatar>
             </div>
 
             <div className='footer-link'>

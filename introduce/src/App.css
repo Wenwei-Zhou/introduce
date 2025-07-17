@@ -110,23 +110,22 @@
   margin-right: auto;
 } */
 
-.navFooter{
-  
-  height: auto; /* 或自动适应内容 */
+/* .navFooter{
+  height: auto; 
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
   padding: 0 2rem;
-}
+} */
 
-.navFooter ul{
+/* .navFooter ul{
   padding: 10px;
   margin: 0;
   list-style: none;
   padding: 0;
   gap: 1rem;
-}
+} */
 
 #project{
   display: flex;

@@ -1,10 +1,12 @@
-import CardActionArea from '@mui/material/CardActionArea';
+// import CardActionArea from '@mui/material/CardActionArea';
 import '../App.css';
 import {projectList} from '../ProjectList';
 import Card from '@mui/material/Card';
+import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
+import Button from '@mui/material/Button';
 import { animate, hover } from "https://cdn.jsdelivr.net/npm/motion@12.23.0/+esm"
 import { useEffect } from 'react';
 
@@ -35,15 +37,15 @@ export default function Project() {
 
     const projects = projectList.map(project =>
         
-            <Card className='card' sx={{ maxWidth: 345, height: 450, border: 'solid', borderColor:'white',
+            <Card className='card' sx={{ maxWidth: 345, height: 500, border: 'solid', borderColor:'white',
                         '&:hover': {border: 'solid', borderColor:'Bisque'} 
 
                         
                     }}>
-                <CardActionArea
+                {/* <CardActionArea
                     component='a'
                     href={project.link}
-                >
+                > */}
                 <CardMedia
                     component="img"
                     sx={{ height: 140 }}
@@ -62,7 +64,26 @@ export default function Project() {
                     {project.description}
                     </Typography>
                 </CardContent>
-                </CardActionArea>
+
+                <CardActions>
+                    <Button size="small" 
+                            variant='contained'
+                            sx={{backgroundColor:'SandyBrown', '&:hover':{backgroundColor: 'Bisque'}}} 
+                            component='a' 
+                            href={project.link}
+                    >
+                        WEB APPLICATION
+                    </Button>
+                    <Button size="small" 
+                            variant='contained'
+                            sx={{backgroundColor:'LightSlateGrey', '&:hover':{backgroundColor:'LightGrey'}}}
+                            component='a' 
+                            href={project.githubLink}
+                    >
+                        GITHUB LINK
+                    </Button>
+                </CardActions>
+                {/* </CardActionArea> */}
             </Card>
         );
 

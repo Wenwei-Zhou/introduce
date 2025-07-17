@@ -1,5 +1,6 @@
 import Grid from "@mui/material/Grid";
 import introduce from '../Image/introduce.png';
+import myself from '../Image/avatar.png';
 import * as motion from "motion/react-client"
 import Avatar from '@mui/material/Avatar';
 import '../App.css';
@@ -42,7 +43,7 @@ export default function Profile() {
                     Australian permanent resident.
             </p>
             <div>
-                <Avatar>WZ</Avatar>
+                <Avatar src={myself} alt="WZ"></Avatar>
                 Wenwei Zhou
             </div>
             </article>
