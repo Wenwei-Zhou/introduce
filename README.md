@@ -3,7 +3,7 @@ Welcome to my personal portfolio website! This site showcases who I am, my techn
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/a8d6c936-37ac-4fb9-859c-a23bb0ca8de5" />
 
 🧠 About Me
-Hi, I'm Wenwei Zhou, a passionate and detail-oriented full-stack developer with hands-on experience in building web applications using modern technologies like React, Node.js, and TypeScript. I’m currently based in Melbourne, Australia, and hold a Bachelor of Computer Science from Deakin University.
+Hi, I'm Wenwei Zhou, a passionate and detail-oriented full-stack developer with hands-on experience in building web applications using modern technologies like React, Node.js, and JavaScript. I’m currently based in Melbourne, Australia, and hold a Bachelor of Computer Science from Deakin University.
 
 🛠️ Tech Stack
 Frontend: React.js, JavaScript, CSS, Material UI, Tailwind CSS
